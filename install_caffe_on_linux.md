@@ -63,9 +63,9 @@ sudo ldconfig -v
 git clone git://github.com/BVLC/caffe.git
 cp Makfile.config.example Makefile.config
 ```
-修改Makefile.config，去掉cudnn的注释，然后开始安装：
+修改Makefile.config，去掉cudnn和use_python_layer的注释，然后开始安装：
 ```bash
-make all
-make test
-make runtest
+sudo make all
+sudo make test
+sudo make runtest
 ```
