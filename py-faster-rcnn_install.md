@@ -23,8 +23,8 @@ $ sudo ./tools/demo.py
 ```
 期间遇到各种`No module named XXX`，就用万能的“sudo apt-get install XXX”装那个module就好，参考apt-get_check_list那篇，大概是在这个阶段装了`python-scipy` `python-matplotlib` `python-sklearn` `python-skimage` `python-h5py` `python-protobuf` `python-leveldb` `python-networkx` `python-nose` `python-pandas` `python-gflags` `python-yaml`这些。有人在装python的时候直接装了anaconda，里面包含了很多python包，不知道全不全，可以试试装装看，我还是缺什么装什么好了，也方便做个checklist。
 跑出来结果么就是类似下面这个鬼样的：
-!(https://github.com/YundiXu/LearningCaffe/blob/master/imgs/figure_3.png?raw=true)
-!(https://github.com/YundiXu/LearningCaffe/blob/master/imgs/figure_4.png?raw=true)
-!(https://github.com/YundiXu/LearningCaffe/blob/master/imgs/snapshot1.png?raw=true)
+![](https://github.com/YundiXu/LearningCaffe/blob/master/imgs/figure_3.png?raw=true)
+![](https://github.com/YundiXu/LearningCaffe/blob/master/imgs/figure_4.png?raw=true)
+![](https://github.com/YundiXu/LearningCaffe/blob/master/imgs/snapshot1.png?raw=true)
 
 欢呼！！！！清明节能好好过了……
