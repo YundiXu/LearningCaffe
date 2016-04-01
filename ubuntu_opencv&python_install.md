@@ -1,6 +1,6 @@
 #Python安装配置
 之前有apt-get了python-dev，现在安装一些有用的工具。参考[http://ouxinyu.github.io/Blogs/20140723001.html](http://ouxinyu.github.io/Blogs/20140723001.html)
-###1. 安装opencv3.1.0
+~~###1. 安装opencv3.1.0
 之前装了libopencv-dev了，版本是2.4.8，但是发现后面要装python-opencv的时候报错：“could not find any downloads that satisfy the requirement python-opencv”。然后决定跟着网上的指导装一下opencv最新版，然后再装python-pencv。
 先装一些依赖库：
 ```bash
@@ -16,7 +16,7 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local ..
 make
 sudo make install
 ```
-要花好长时间……等待啊等待……
+要花好长时间……等待啊等待……~~
 ###2. 安装IDE运行环境
 安装Spyder，因为它内置了 iPython 环境，Caffe有不少的程序是基于 iPython 环境完成的。安装方法很简单，直接在Ubuntu软件中心搜索“spyder”即可安装。
 ###3. 安装iPython NoteBook

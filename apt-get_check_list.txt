@@ -58,3 +58,4 @@ python-networkx
 python-nose 
 python-pandas 
 python-gflags
+python-yaml
