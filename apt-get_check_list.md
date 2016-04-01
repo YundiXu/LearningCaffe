@@ -46,4 +46,15 @@ libxvidcore-dev
 x264 
 v4l-utils 
 unzip 
-python-opencv
+python-opencv 
+python-scipy 
+python-matplotlib 
+python-sklearn 
+python-skimage 
+python-h5py 
+python-protobuf 
+python-leveldb 
+python-networkx 
+python-nose 
+python-pandas 
+python-gflags
