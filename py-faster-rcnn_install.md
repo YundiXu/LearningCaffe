@@ -28,3 +28,10 @@ $ sudo ./tools/demo.py
 ![](https://github.com/YundiXu/LearningCaffe/blob/master/imgs/snapshot1.png?raw=true)
 
 欢呼！！！！清明节能好好过了……
+
+--------------0503加---------------
+有个不错的小技巧：把数据集放在一个地方，然后快捷方式到要用它的框架、模型、网络那里。像这样——
+```bash
+$ cd $FRCN_ROOT/data
+$ ln -s $VOCdevkit VOCdevkit2007
+```

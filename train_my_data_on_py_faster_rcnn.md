@@ -6,6 +6,9 @@
 然后改写一下VOCdevkit的转成xml的.m脚本，转成PASCAL VOC数据集那样的格式blablabla……
 就是参照那个博文改的反正。
 
+-----------0503加-------------
+按照上面那个博文可能有问题：它把truncated都设成‘0’，但是我的数据里有些对象部分在图像边框外，并不是完整的对象，都设成‘0’会让模型误以为半个的也是整个，结果导致训练出来的模型框bounding box出问题，把半个的整个的都框进去了。反正我遇到这个结果，推测原因是truncated都设成‘0’的缘故。那就在writeanno.m里筛选一下bounding box在图像边缘上的那种，设其truncated值为‘1’试试看咯。
+
 ##2. py-faster-rcnn程序修改
 复制$FRCNN_ROOT/lib/datasets里的pascal_voc.py重命名个自己数据集名字的.py文件，比如mydata.py然后按照自己数据集的情况改里面的代码：
 * self._classes里的类名，改成自己的；

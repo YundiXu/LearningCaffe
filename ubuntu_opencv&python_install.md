@@ -18,7 +18,7 @@ sudo make install
 ```
 ~~要花好长时间……等待啊等待……~~
 ###2. 安装IDE运行环境
-安装Spyder，因为它内置了 iPython 环境，Caffe有不少的程序是基于 iPython 环境完成的。安装方法很简单，直接在Ubuntu软件中心搜索“spyder”即可安装。
+安装Spyder，因为它内置了 iPython 环境。安装方法很简单，直接在Ubuntu软件中心搜索“spyder”即可安装。
 ###3. 安装iPython NoteBook
 ```bash
 $ sudo apt-get install -y ipython-notebook pandoc
